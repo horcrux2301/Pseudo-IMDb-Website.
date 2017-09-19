@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ 	<script src="JS/bootstrap.min.js"></script>
+ 	<script type="text/javascript" src="JS/movie.js"></script>
+ 	<script src="Ext Lib 1/js/star-rating.js" type="text/javascript"></script>
+ 	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">  
+	<link rel="stylesheet" type="text/css" href="CSS/movie.css">
+	<link href="Ext Lib 1/css/star-rating.css" media="all" rel="stylesheet" type="text/css" />  
+</head>
+<body>
+
+	<div class="container">
+	<div id="make_it_appear" style="display: none; float: right; margin-right: 30px;">
+		<h3></h3>
+	</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 jumbotron" id="movie-jumbo">
+				<div id="movie_name"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="rating_user" style="display: none; float: right; margin-right: 150px;">
+		<input id="stars1" name="input-name" type="number" class="rating" style="width:100%">
+	</div>
+
+	<div id="add_all_data_here" class="container">
+		<div id="stars"></div>
+		<div id="overview"></div>
+	</div>
+
+	
+
+	<div class="container">
+		<div class="row" id="cast">
+			
+		</div>
+	</div>
+
+	<div id="recommend" class="container" style="margin-top: 40px;">
+		<h1>More Recommendations.</h1>
+	</div>
+
+	<div id="cast_template" class="col-sm-3 col-md-1" style="height:300px;display:none;margin: 5px 30px 5px 1px;padding: 5px;">
+	        <img class="cast-img" src="" alt="" style="width:120px;height:140px;">
+	        <div class="caption">
+	            <p class="cast-name" style="font-size: 14px; font-weight: bold;height:60px"></p>
+	            <a id="celeb-id" class="view-link btn btn-primary" data-pid="0" role="button" onclick="setProfile(this.getAttribute('data-pid'))">View Profile</a>
+	        </div>
+	</div>
+
+
+
+</body>
+</html>

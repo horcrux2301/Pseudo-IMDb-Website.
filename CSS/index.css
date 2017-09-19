@@ -1,0 +1,48 @@
+body{
+	background-color: #d9d9d9;
+}
+
+
+#make_it_appear{
+	float: right;
+	margin-right: 50px;
+}
+
+#make_this_disappear{
+	float: right;
+	margin-right: 35px; 
+	width: 20%; 
+	margin-top: 60px;
+}
+
+.main_text{
+	text-align: left;
+	font-family: 'PT Sans', sans-serif;
+	margin-left: 10px;
+}
+
+.page-header{
+	border:0;
+}
+
+
+#setcolor{
+ 	color: #4da6ff ;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+#form_div{
+	width: 500px;
+	margin-left: 10px;
+}
+
+#place_user_here h2{
+	margin-left: 15px;
+}
+
+#place_user_here a{
+	margin-left: 15px;
+}
+

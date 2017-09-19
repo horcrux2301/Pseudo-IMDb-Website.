@@ -1,0 +1,26 @@
+body{
+	background-color: #d9d9d9;
+}
+
+
+#actor-here{
+	margin-top: 50px;
+}
+
+#place_here{
+	margin-top: 50px;
+}
+
+.style1{
+	font-size: 25px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.style2{
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+h3{
+	font-size: 20px;
+}
